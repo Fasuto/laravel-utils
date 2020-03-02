@@ -22,10 +22,10 @@ class ClearAll extends Command
 
     public function handle()
     {
-        Artisan::call('config:clear');
-        Artisan::call('cache:clear');
-        Artisan::call('route:clear');
-        Artisan::call('view:clear');
-        Artisan::call('clear-compiled');
+        \Artisan::call('config:clear');
+        \Artisan::call('cache:clear');
+        \Artisan::call('route:clear');
+        \Artisan::call('view:clear');
+        \Artisan::call('clear-compiled');
     }
 }
