@@ -1,0 +1,23 @@
+{
+    "name": "fasuto/laravel-utils",
+    "keywords": ["laravel","utils"],
+    "license": "MIT",
+    "description": "Laravel utilities commands",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fasuto\\Util\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fasuto\\Util\\UtilServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
